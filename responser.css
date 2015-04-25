@@ -1,0 +1,272 @@
+ainput,
+label,
+select,
+button,
+textarea
+{
+	margin:0;
+	border:0;
+	padding:0;
+	display:inline-block;
+	vertical-align:middle;
+	white-space:normal;
+	background:none;
+	line-height:1;
+	
+	/* Browsers have different default form fonts */
+	font-size:13px;
+	font-family:Arial;
+}
+ 
+/* Remove the stupid outer glow in Webkit */
+input:focus
+{
+	outline:0;
+}
+ 
+/* Box Sizing Reset
+-----------------------------------------------*/
+ 
+/* All of our custom controls should be what we expect them to be */
+input,
+textarea
+{
+	-webkit-box-sizing:content-box;
+	-moz-box-sizing:content-box;
+	box-sizing:content-box;
+}
+ 
+/* These elements are usually rendered a certain way by the browser */
+button,
+input[type=reset],
+input[type=button],
+input[type=submit],
+input[type=checkbox],
+input[type=radio],
+select
+{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+ 
+/* Text Inputs
+-----------------------------------------------*/
+ 
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=range],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week]
+{
+}
+ 
+/
+/* Buttons
+-----------------------------------------------*/
+ 
+button,
+input[type="reset"],
+input[type="button"],
+input[type="submit"]
+{
+	/* Fix IE7 display bug */
+	overflow:visible;
+	width:auto;
+}
+ 
+/* IE8 and FF freak out if this rule is within another selector */
+::-webkit-file-upload-button
+{	
+	padding:0;
+	border:0;
+	background:none;
+}
+ 
+
+body{
+margin:0;
+padding:0;
+text-align:center;
+}
+body a
+{
+color:#f8694d;
+text-decoration:none;
+}
+body a:hover
+{
+color:#243342;
+}
+ 
+
+#main-container iframe
+{
+border:15px solid #243342;
+border-radius:10px;
+box-shadow:1px 1px 4px  #444444;
+-moz-box-shadow:1px 1px 4px  #444444;
+-web-kit-box-shadow:1px 1px 4px  #444444;
+-goog-ms-box-shadow:1px 1px 4px  #444444;
+transition:all 1s;
+background:#ffffff;
+}
+
+
+
+#responser-header
+{
+background:orange;
+color:#ffffff;
+height:55px;
+min-width:960px;
+padding-left:20px;
+padding-right:50px;
+}
+#responser-header a
+{
+text-decoration:none;
+}
+.input-normal
+{
+background:#ffffff;
+height:30px;
+box-shadow:none;
+}
+.button-normal
+{
+box-shadow:none;
+}
+
+#button-go-responser,#button-set-custom
+{
+background:#243342;
+border:1px solid #243342;
+}
+
+#navigation
+{
+border:none;
+}
+ul{
+ 
+  margin:0;
+  padding:0;
+
+}
+
+li{
+  float:left;
+  list-style:none;
+  line-height:50px;
+  margin:0;
+  padding:0
+}
+
+ li a, li a:link{
+  color:#ffffff;
+  display:block;
+  margin:0;
+  padding:0 10px;
+font-size:16px;
+  text-decoration:none;
+
+
+}
+
+ li a:hover, li a:active  {
+  color:#fff;
+  padding:0 10px;
+}
+
+li li a, li li a:link, li li a:visited{
+  font-size: 16px;
+background:#243342;
+  color: #fff;
+  width: 250px;
+  margin: 0;
+  padding: 0px 10px;
+  line-height:30px;
+  position: relative;
+  
+}
+
+li li a:hover, li li a:active {
+  background:orange;
+  color: #fff;
+}
+
+li ul{
+  z-index:9999;
+  position:absolute;
+  left:-999em;
+  height:auto;
+  width:168px;
+  margin:0px;
+  padding:0px
+   
+}
+
+li:hover ul,li li:hover ul,li li li:hover ul, li.sfhover ul, li li.sfhover ul, li li li.sfhover ul{
+  left:auto
+}
+
+li:hover, li.sfhover{
+  position:static
+
+}
+
+
+.input-normal
+{
+width:250px;
+height:30px;
+line-height:40px;
+padding:5px;
+color:#777777;
+border:1px solid #dcdcdc;
+font-size:16px;
+margin:10px;
+box-shadow:1px 1px 4px  #dcdcdc;
+-moz-box-shadow:1px 1px 4px  #dcdcdc;
+-webkit-box-shadow:1px 1px 4px  #dcdcdc;
+-goog-ms-box-shadow:1px 1px 4px  #dcdcdc;
+}
+.input-small
+{
+width:100px;
+}
+.button-normal
+{
+border:none;
+border-bottom:3px solid #53a952;
+		background:#60c45f;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	text-indent:0;
+	margin:5px;
+	display:inline-block;
+	color:#ffffff;
+	font-size:16px;
+	font-style:normal;
+	padding:8px 15px 8px 15px;
+	text-decoration:none;
+	text-align:center;
+
+
+}
+
+.button-normal:hover
+{
+color:#ffffff;
+}
